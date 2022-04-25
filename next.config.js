@@ -1,6 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   reactStrictMode: true,
+// };
 
-module.exports = nextConfig
+// module.exports = nextConfig;
+
+// linaria
+const withLinaria = require('next-linaria');
+module.exports = withLinaria({});
